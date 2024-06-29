@@ -1,3 +1,4 @@
+// variables
 let numeroSecreto = 6;
 let numeroUsuario = prompt("Pon un numero por favor:");
 
@@ -6,5 +7,9 @@ let numeroUsuario = prompt("Pon un numero por favor:");
 console.log(numeroUsuario);
 
 if (numeroUsuario == numeroSecreto) {
-    alert("Acertaste el numero");
+    alert(`Acertaste el numero: ${numeroSecreto}` ); // uso de comilla invertida
+}
+
+else {
+    alert("Numero incorrecto");
 }
